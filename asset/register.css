@@ -1,0 +1,156 @@
+:root{
+    --orange :#D17842; 
+    --bg-color : #181818;
+    --white : #fff;
+    --gray : #E4E4E4;
+    --dark-gray : #A3A3A3;
+}
+
+body{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    background-image: url(image/loginbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: var(--dark-gray);
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #181818);
+    border-radius: 6px;
+}
+
+/* Login */
+
+.box-area{
+    width: 80%;
+    border-radius: 20px;
+
+    background-image: url(image/loginbgform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-img img{
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.other img{
+    width: 50px;
+}
+
+.login-heading img{
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+span{
+    color: var(--orange);
+}
+
+.login-heading {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.header-text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.form-check input{
+    outline: none;
+    border: none;
+}
+
+.form-check label{
+    color: var(--gray);
+}
+
+.forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.forgot a:hover{
+    color: var(--orange);
+    transition: ease .3s;
+}
+
+.input-group button{
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.other-login h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.other{
+    padding: 10px;
+}
+
+.other img{
+    background-color: var(--gray);
+    border-radius: 50%;
+    border: 2px solid var(--gray);
+}
+
+.other img:hover{
+    background-color: var(--dark-gray);
+    border-color: var(--dark-gray);
+    box-shadow: 0 0 10px var(--white);
+}
+
+.register p{
+    color: var(--gray);
+}
+
+.register a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.register a:hover{
+    color: var(--orange);
+}
+
+@media screen and(max-width : 992px) {
+    .box-area{
+        width: 100%;
+    }
+}
+
